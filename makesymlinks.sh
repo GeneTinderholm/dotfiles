@@ -8,8 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc emacs spacevim vimrc Xdefaults xinitrc zshrc"
-
+files="bashrc emacs spacevim vimrc Xdefaults xinitrc Xmodmap zshrc"
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
