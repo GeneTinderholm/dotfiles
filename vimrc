@@ -25,7 +25,7 @@ if has('gui_running')
 	:set guifont=Hack\ 13
 else
 	if(&term == "xterm-256color")
-		let g:solarized_use16 = 1
+		" let g:solarized_use16 = 1
     set termguicolors
 		set t_8f=[38;2;%lu;%lu;%lum
 		set t_8b=[48;2;%lu;%lu;%lum
@@ -34,6 +34,7 @@ else
     " colorscheme gruvbox
     colorscheme one
 	else
+    let base16colorspace=256
 		set t_Co=256
 		colorscheme gruvbox
 	endif

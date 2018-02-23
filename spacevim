@@ -31,7 +31,7 @@ function! UserInit()
 
   " Install personal plugins
   " Plug 'hecal3/vim-leader-guide'
-Plug 'emacs-helm/helm'
+Plug 'ryanoasis/vim-devicons'
 
 endfunction
 

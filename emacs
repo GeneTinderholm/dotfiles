@@ -18,7 +18,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (use-package company-ycmd company-ycm avy smartparens ycmd solaire-mode company atom-one-dark-theme helm-descbinds spaceline doom-themes projectile doom handlebars-mode prettier-js web-beautify flycheck evil-nerd-commenter evil-surround all-the-icons neotree general rainbow-delimiters org-evil org-link-minor-mode solarized-theme helm evil-visual-mark-mode))))
+    (auto-complete icicles rainbow-mode use-package company-ycmd company-ycm avy smartparens ycmd solaire-mode company atom-one-dark-theme helm-descbinds spaceline doom-themes projectile doom handlebars-mode prettier-js web-beautify flycheck evil-nerd-commenter evil-surround all-the-icons neotree general rainbow-delimiters org-evil org-link-minor-mode solarized-theme helm evil-visual-mark-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

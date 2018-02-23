@@ -1,8 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$PATH:$HOME/.rvm/bin:$HOME/go/bin:$QT_DIR/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/gene/.oh-my-zsh
+export ZSH=/home/gene/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -67,6 +68,15 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export QT_DIR='/home/gene/Qt5.9.2/'
+export QT_VERSION=5.9.2
+export LD_LIBRARY_PATH=$QT_DIR/lib:$LD_LIBRARY_PATH
+export GOPATH=$HOME/go
+export QT_QPA_PLATFORMTHEME=gtk2
+
+#Base 16
+# BASE16_SHELL=$HOME/.config/base16-shell/
+# [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -95,4 +105,6 @@ bindkey -v
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias v='vim'
 
